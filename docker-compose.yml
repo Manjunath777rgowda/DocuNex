@@ -2,11 +2,11 @@ version: '3.3'
 services:
 
   nuve_docs:
-    container_name: nvue_docs
+    container_name:  nuve_docs
     restart: always
     build:
       dockerfile: Dockerfile
-    image: nvue_docs
+    image:  manjunath777rgowda/nuve_docs
     volumes:
       - ./nuve-docs/home:/home
     ports:
